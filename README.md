@@ -53,11 +53,15 @@ If shortCode is not found → returns 404 with error message.
 
 #### 1. Install DynamoDB Local (if not done)
 ``mkdir dynamodb-local  
+
 cd dynamodb-local  
+
 wget https://s3.us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.zip  
+
 unzip dynamodb_local_latest.zip``
 #### 2. Start DynamoDB Local
-``java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb``
+``java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb``  
+
 It will run on: ``http://localhost:8000``
 #### 3. Update application.properties
 ``aws.region=ap-south-1
