@@ -16,3 +16,12 @@ Error handling (duplicate URL, missing records, invalid input)
 Stateless REST API design
 
 Easily deployable to any cloud platform (Render / Railway / EC2 / LocalStack)
+
+## Tech Stack 
+| Component  | Technology                    |
+| ---------- | ----------------------------- |
+| Backend    | Spring Boot 3+, Java 17       |
+| Database   | AWS DynamoDB / DynamoDB Local |
+| SDK        | AWS Java SDK v2               |
+| Build Tool | Maven                         |
+
