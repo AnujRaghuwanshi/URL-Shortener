@@ -88,4 +88,5 @@ You can use AWS CLI:
  │     ├── model/             # DynamoDB Entity
  │     └── config/            # AWS DynamoDB configuration
  └── main/resources/
-       └── application.properties```
+       └── application.properties
+```
